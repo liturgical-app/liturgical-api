@@ -47,6 +47,11 @@ docker pull ghcr.io/liturgical-app/liturgical-api:latest
 - The `latest` tag points to the latest stable release
 - The `edge` tag is built from the latest commit to `main`
 
+## Run
+
+A [Helm chart](https://artifacthub.io/packages/helm/liturgical/liturgical-api)
+is available for deploying on Kubernetes.
+
 ## Issues
 
 [Issues](https://github.com/liturgical-app/liturgical-api/issues) should
