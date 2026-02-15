@@ -13,5 +13,5 @@ coverage-badge
 pytest-cov
 genbadge
 defusedxml
-liturgical-calendar==0.5.4
+liturgical-calendar==0.5.5
 prometheus-flask-exporter==0.23.2
