@@ -19,4 +19,4 @@ jobs:
           python3 -m coverage xml -o ./src/resources/coverage/coverage.xml
           genbadge coverage -i ./src/resources/coverage/coverage.xml -o ./src/resources/coverage/coverage.svg
       - name: Commit Results 💾
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
