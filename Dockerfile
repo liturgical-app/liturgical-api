@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.14-alpine
 WORKDIR /code
 COPY src/app/requirements.txt /code
 RUN pip3 install -r requirements.txt --no-cache-dir
