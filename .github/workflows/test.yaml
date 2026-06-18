@@ -9,7 +9,7 @@ jobs:
       working-directory: ./src/app
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Python 🐍
         uses: actions/setup-python@v6
         with:
